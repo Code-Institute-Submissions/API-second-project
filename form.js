@@ -3,7 +3,7 @@ $(document).ready(function () {
     $("#frmSearch").submit(function (e) {
         e.preventDefault();
         var i = 0;
-        let query = $ ("#txtQuery").val();
+        let query = $("#txtQuery").val();
         findRecipe(query);
         // var alertMsg = "";
         // alertMsg += $("#meat").val();
@@ -13,20 +13,20 @@ $(document).ready(function () {
     });
 
     $(document).on("click", "a", function () {
-        console.log($(this).data("Recipes"));
+        console.log($(this).data("title"));
 
-        var Recipes = $(this).data("Recipes");
+        var title = $(this).data("title");
 
     });
 
 
 
-    function findRecipe(query) { 
+    function findRecipe(query) {
         console.log("finding");
         var settings = {
             "async": true,
             "crossDomain": true,
-            "url": "https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/food/site/search?query=" + query,
+            "url": "https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/4632/summary" + query,
             "method": "GET",
             "headers": {
                 "x-rapidapi-host": "spoonacular-recipe-food-nutrition-v1.p.rapidapi.com",
@@ -38,34 +38,25 @@ $(document).ready(function () {
             // 
         }
 
-        $.ajax(settings)
-        .done(function () {
-            console.log ("you");
-            // // reverse back UI changes
-            // $("#loading").hide();
-            // console.log(response)
+        $.ajax()
+            .done(function () {
+                console.log("you");
+                // // reverse back UI changes
+                // $("#loading").hide();
+                // console.log(response)
 
-            let responseSummary = ""; //define the variable
+                let responseSummary = ""; //define the variable
 
-            for (var i = 0; i < response.length; i++) { //loop through the entire function
-                var obj = response[i];
-            responseSummary += "<img src='" + response [i]["image"] + "' width='200' height='200'>"; 
+                for (var i = 0; i < response.length; i++) { //loop through the entire function
+                    var obj = response[i];
 
+                    responseSummary += response[i]["title"]; //include keys
+                    //             }
+                    $("#response").html(responseSummary); //results in html
 
-            //     // responseSummary += response[i]["name"];
-            //     // console.log(response[i]["originalame"]);
-            //     // responseSummary += "<img src='" + response[i] ["youTubeId"] + "' width='200' height='200'>"; 
-            //     // responseSummary += "<video src='" + response[i] ["youTubeId"] + "' "; 
+                }
 
-            //     //responseSummary +=  response[i] ["thumbnail"] ; 
-            responseSummary += response[i]["name"] ; //include keys
-            //             }
-            $("#response").html(responseSummary); //results in html
-        
-            }
-
-        });
+            });
 
     }
 });
-
