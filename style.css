@@ -3,6 +3,16 @@ body {
     padding: 0%;
     border: 0%;
     font-family: sans-serif;
-    background: black;
+    background: url("https://images.pexels.com/photos/326279/pexels-photo-326279.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
   }
   
+  .container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .headerText {
+      font-family: Geneva, Tahoma, sans-serif;
+      padding: 20px;
+      color: white;
+  }
