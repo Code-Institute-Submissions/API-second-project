@@ -23,10 +23,11 @@ $(document).ready(function () {
             let count = 0;
             const maxNum = 3
             function retrieve() {
-                if (count >= maxNum) return; //stop
+                if (count >= maxNum)return; //stop
             
                 count++;
                 retrieve()
+                findRecipe(food)
             }   
             // for (var i = 6; i < response.length; i++);
             // var obj = response[i];
