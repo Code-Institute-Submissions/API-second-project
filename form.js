@@ -20,24 +20,9 @@ $(document).ready(function () {
        
 
         $.ajax(settings).done(function (response) {
-            let count = 0;
-            const maxNum = 3
-            function retrieve() {
-                if (count >= maxNum)return; //stop
-            
-                count++;
-                retrieve()
-                findRecipe(food)
-            }   
-            // for (var i = 6; i < response.length; i++);
-            // var obj = response[i];
-            // $("#response").html(response[i]);
-            // $("#response").html(response["videos"][0]["title"]);
             let newResponse = response['videos'][0]["youTubeId"];
             $("#frame").attr("src","https://www.youtube.com/embed/"+ newResponse);
-    
-            });
-            
-        }
-
-    });
+        
+        });
+    }
+});
