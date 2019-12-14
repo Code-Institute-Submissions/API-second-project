@@ -23,9 +23,9 @@ body {
   }
   
   .Text {
-      font-family: 'Fira Sans Condensed', cursive, sans-serif;
+      font-family: 'Lilita One', bold, sans-serif;
       padding: 20px;
-      color: black;
+      color: #000000;
   }
 
   #frame {
