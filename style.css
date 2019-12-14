@@ -3,7 +3,13 @@ body {
     padding: 0%;
     border: 0%;
     font-family: sans-serif;
-    background: url("https://images.pexels.com/photos/326279/pexels-photo-326279.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+    background: white;
+  }
+
+  .navbar {
+    color: white;
+    background-color: teal;
+    font-size: 20px;
   }
   
   .container {
@@ -14,7 +20,7 @@ body {
   .headerText {
       font-family: Geneva, Tahoma, sans-serif;
       padding: 20px;
-      color: white;
+      color: teal;
       text-align: center;
   }
 
