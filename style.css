@@ -5,13 +5,16 @@ body {
     font-family: sans-serif;
     background-image: url("https://images.pexels.com/photos/2683373/pexels-photo-2683373.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover
   }
 
   .navbar {
     background-color: teal;
-    font-size: 20px;
     font-family: 'Abril Fatface', cursive, sans-serif;
+    margin-right: 40px;
+    margin-left:40px;
+    text-align: center;
+    display: block;
   }
   
   a {
@@ -24,8 +27,13 @@ body {
   
   .Text {
       font-family: 'Lilita One', bold, sans-serif;
-      padding: 20px;
-      color: #000000;
+      padding: 10px;
+      color: darkred;
+      background-color: goldenrod;
+      margin: 70px;
+      text-align: center;
+      
+
   }
 
   #frame {
@@ -40,7 +48,13 @@ body {
   }
   
 @media only screen and (max-width: 320px) {
-  h1 {
+  .h1 {
     font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+ .Text {
+    display: none;
   }
 }
