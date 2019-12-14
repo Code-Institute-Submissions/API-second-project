@@ -20,12 +20,12 @@
   
   <script> 
   $(document).ready(function(){
-  $(".navbar h1").hover(function(){
-      $(this).css("color", "#bbffff");
+
+  $("#anchor").hover(function(){
+      $(this).css("color", "white");
   });
   $(".navbar h1").mouseout(function(){
       $(this).css("color", "white");
-  
   });
 });
   </script>
@@ -33,8 +33,8 @@
 </head>
 
 <body>
-<div class= "navbar">
-  <h1>Recipe Finder</h1>
+<div id=anchor class= "navbar">
+  <h1><a href="https://spoonacular.com/">Recipe Finder By Spooncular</a></h1>
 </div>
 
   <div class= "Text">
