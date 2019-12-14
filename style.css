@@ -3,7 +3,7 @@ body {
     padding: 0%;
     border: 0%;
     font-family: sans-serif;
-    background: white;
+    background: url("https://images.pexels.com/photos/2683373/pexels-photo-2683373.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
   }
 
   .navbar {
@@ -12,6 +12,9 @@ body {
     font-family: 'Abril Fatface', cursive;
   }
   
+  a {
+    color: white;
+  }
   .container {
     text-align: center;
     margin-top: 50px;
