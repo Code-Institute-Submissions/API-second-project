@@ -42,3 +42,13 @@ Clicking on the link (header text - Recipe Finder by Spooncular) will take users
 (ii) The nav bar text changes colour when user hovers over the text. This will show them that the text is a link. Additionally, when the mouse hovers over the text, the cursor changes. 
 (iii) The font looks fun and appeals to users. The background image is attractive and colourful, so as to draw the users eye. 
 (iv) The colour of the text box above the search bar font colour of the text inside the box matches the colours of the background image. 
+
+## Technologies
+
+1. HTML (link to the documentation: https://devdocs.io/html/)
+HTML was used to structure the content of the website.
+2. CSS (link to the documentation: https://devdocs.io/css/)
+CSS was used to style the website.
+3. Bootstrap (link to the documentation: https://getbootstrap.com)
+4. Javascript — for the navigation bar. (link to the documentation: https://devdocs.io/jsdoc/)
+
