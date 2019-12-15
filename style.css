@@ -24,7 +24,6 @@ body {
     text-align: center;
     margin-top: 50px;
   }
-  
   .Text {
       font-family: 'Lilita One', bold, sans-serif;
       padding: 10px;
@@ -39,6 +38,12 @@ body {
   #frame {
     width: 100%; 
     margin-top: 20px;
+  }
+
+  .footer {
+    background-color: teal;
+    color: white;
+    text-align: center;
   }
 
   @media only screen and (max-width: 768px) {
