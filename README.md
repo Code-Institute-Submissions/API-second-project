@@ -89,16 +89,18 @@ https://www.w3schools.com/cssref/pr_background-image.asp
 Pexels: To choose background image.
 https://www.pexels.com/
 
-stackoverflow: Changing text color on hover then having it change back to the original colour.
+Stackoverflow:
+
+1. Changing text color on hover then having it change back to the original colour.
 https://stackoverflow.com/questions/3741157/change-background-color-on-mouseover-and-remove-it-after-mouseout
 
-stackoverflow: Linking with jQuery.
+2. Linking with jQuery.
 https://stackoverflow.com/questions/9081426/using-jquery-to-programmatically-click-an-a-link
 
-stackoverflow: JQuery to change the colour of font when hovered.
+3. JQuery to change the colour of font when hovered.
 https://stackoverflow.com/questions/6836166/jquery-change-hover-on-color-then-return-back-to-original-color
 
-stackoverflow: Media queries.
+4. Media queries.
 https://stackoverflow.com/questions/16387400/getting-the-right-font-size-on-every-mobile-device/16387418
 
 Google Fonts: For fonts.
