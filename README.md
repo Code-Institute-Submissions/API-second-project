@@ -78,3 +78,32 @@ This site was tested across multiple devices multiple mobile devices
 | 4      | Mobile users should not be able to see a block of text above the search bar in mobile view due to media queries. | Pass  |
 | 5      | Tablet and desktop users will be able to see more content pertaining to the website. | Pass  |
 
+## Bugs Discovered
+No bugs found. 
+
+### Acknowledgements
+
+W3Schools: To format background image.
+https://www.w3schools.com/cssref/pr_background-image.asp
+
+Pexels: To choose background image.
+https://www.pexels.com/
+
+stackoverflow: Changing text color on hover then having it change back to the original colour.
+https://stackoverflow.com/questions/3741157/change-background-color-on-mouseover-and-remove-it-after-mouseout
+
+stackoverflow: Linking with jQuery.
+https://stackoverflow.com/questions/9081426/using-jquery-to-programmatically-click-an-a-link
+
+stackoverflow: JQuery to change the colour of font when hovered.
+https://stackoverflow.com/questions/6836166/jquery-change-hover-on-color-then-return-back-to-original-color
+
+stackoverflow: Media queries.
+https://stackoverflow.com/questions/16387400/getting-the-right-font-size-on-every-mobile-device/16387418
+
+Google Fonts: For fonts.
+https://fonts.google.com/
+
+
+
+
