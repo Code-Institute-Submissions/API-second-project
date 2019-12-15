@@ -66,7 +66,8 @@ https://docs.google.com/document/d/140WFOEAWvWYbQggkNLfy00ew1iz-99JKdUMuonGJmC0/
 This site was tested across multiple devices multiple mobile devices 
 (iPhone 4, 5, 7: Chrome and Safari, iPad, Samsung Galaxy) to ensure compatibility and responsiveness.)
 
-(iii) Additionally, certain elements such as the textbox above the search bar is turned off for phones, as soon as the breakpoint hits min-device-width: 320px.
+(iii) Media Queries
+Additionally, certain elements such as the textbox above the search bar is turned off for phones, as soon as the breakpoint hits min-device-width: 320px.
 
 (v) Test Cases 
 
