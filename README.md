@@ -17,3 +17,7 @@ A live demo of the website can be found here: https://soycat999.github.io/API-se
 | 2      | User would like to know more about  Spooncular. | To include a link to the official Spooncular website.  |
 | 3      | User would like a clean interface that is simple to use on mobile  | To include media queries that eliminate certain elements when on mobile view.  |
 | 4      | User would like to see more content on tablets, desktop | To include media queries that display certain elements when on tablet or desktop view.   |
+
+## Project Structure
+### (i) Overview
+- Homepage - The homepage is fairly simple and straightforward to use. On mobile view, users will be able to search for recipes without having to navigate through needless content. On larger devices such as a tablet or a desktop, users will be able to see some content pertaining to the the search function used. Other than that, the interface is easy to use. 
