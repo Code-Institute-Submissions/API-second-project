@@ -68,3 +68,13 @@ This site was tested across multiple devices multiple mobile devices
 
 (iii) Additionally, certain elements such as the textbox above the search bar is turned off for phones, as soon as the breakpoint hits min-device-width: 320px.
 
+(v) Test Cases 
+
+| Test Case(s)        | Description           | Outcome |
+| :------------- |:-------------| :-----|
+| 1      | When user hovers over the text on the header text , it will change colour. Additionally, hovering over the text will change the cursor to show users that is is a link. | Pass  |
+| 2      | When user clicks on the link, they will be redirected to the Spooncular page | Pass  |
+| 3      | When user enters an ingredient, it will call a recipe video from YouTube. Users will be able to watch this video. | Pass  |
+| 4      | Mobile users should not be able to see a block of text above the search bar in mobile view due to media queries. | Pass  |
+| 5      | Tablet and desktop users will be able to see more content pertaining to the website. | Pass  |
+
