@@ -31,7 +31,7 @@ https://docs.google.com/document/d/1EXbarzoNlgPHfAAtar7pMNcObNwsNRzCSKVN2oFSOc8/
 The top header on the website lets the user know the function of the website right off the bat.  It also “promotes” the Spooncular API. The search bar is easily seen and accessible to the user. After the user inputs the ingredient, a recipe video will load in the bottom. On tablet or desktop view, the user will be provided with more information about using the API. 
 
 ### (ii) Features to implement in the future
-In the future, I would like the website to load more than one video when a user searches for a recipe. This will give users more options. I would also like to connect another API to give users more information on various various. Additionally, I would like to include more interactive elements to keep users engaged. One more thing that I would like to implement is to have a new browser window open when the link to the Spooncular website is clicked.
+In the future, I would like the website to load more than one video when a user searches for a recipe. This will give users more options. I would also like to connect another or an additional API to give users more information on various recipes and allow them to use other tools such as meal planners and trackers to make the website more holistic. Additionally, I would like to include more interactive elements to keep users engaged. One more thing that I would like to implement is to have a new browser window open when the link to the Spooncular website is clicked, so that the users are not navigated away from the current website. 
 
 ### Limitation 
 Clicking on the link (header text - Recipe Finder by Spooncular) will take users to the Spooncular page, but it will not open in a new window. 
@@ -39,9 +39,9 @@ Clicking on the link (header text - Recipe Finder by Spooncular) will take users
 ## Project Surface
 ### Design Choices
 (i) The colour scheme of header text and the nav bar is intended make the title of the website stand out. 
-(ii) The nav bar text changes colour when user hovers over the text. This will show them that the text is a link. Additionally, when the mouse hovers over the text, the cursor changes. 
+(ii) The nav bar text changes colour when user hovers over the text. This will show them that the text is a clickable link. Additionally, when the mouse hovers over the text, the cursor changes. 
 (iii) The font looks fun and appeals to users. The background image is attractive and colourful, so as to draw the users eye. 
-(iv) The colour of the text box above the search bar font colour of the text inside the box matches the colours of the background image. 
+(iv) The colour of the text box above the search bar and the font colour of the text inside the box matches the colours of the background image. 
 
 ## Technologies
 
@@ -72,11 +72,12 @@ This site was tested across multiple devices multiple mobile devices
 
 | Test Case(s)        | Description           | Outcome |
 | :------------- |:-------------| :-----|
-| 1      | When user hovers over the text on the header text , it will change colour. Additionally, hovering over the text will change the cursor to show users that is is a link. | Pass  |
-| 2      | When user clicks on the link, they will be redirected to the Spooncular page | Pass  |
+| 1      | When user hovers over the text on the header text , it will change colour. Additionally, hovering over the text will change the cursor to show users that it is a clickable link. | Pass  |
+| 2      | When user clicks on the link, they will be redirected to the Spooncular page. | Pass  |
 | 3      | When user enters an ingredient, it will call a recipe video from YouTube. Users will be able to watch this video. | Pass  |
 | 4      | Mobile users should not be able to see a block of text above the search bar in mobile view due to media queries. | Pass  |
 | 5      | Tablet and desktop users will be able to see more content pertaining to the website. | Pass  |
+| 6      | Tablet and desktop users will be able to see more content pertaining to the website. | Pass  |
 
 ## Bugs Discovered
 No bugs found. 
