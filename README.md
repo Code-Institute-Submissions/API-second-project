@@ -33,6 +33,7 @@ The top header on the website lets the user know the function of the website rig
 ### (ii) Features to implement in the future
 In the future, I would like the website to load more than one video when a user searches for a recipe. This will give users more options. I would also like to connect another API to give users more information on various various. Additionally, I would like to include more interactive elements to keep users engaged. 
 
-
+### Limitation 
+Clicking on the link (header text - Recipe Finder by Spooncular) will take users to the Spooncular page, but it will not open in a new window. 
 
 
