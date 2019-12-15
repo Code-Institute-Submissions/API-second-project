@@ -31,7 +31,7 @@ https://docs.google.com/document/d/1EXbarzoNlgPHfAAtar7pMNcObNwsNRzCSKVN2oFSOc8/
 The top header on the website lets the user know the function of the website right off the bat.  It also “promotes” the Spooncular API. The search bar is easily seen and accessible to the user. After the user inputs the ingredient, a recipe video will load in the bottom. On tablet or desktop view, the user will be provided with more information about using the API. 
 
 ### (ii) Features to implement in the future
-In the future, I would like the website to load more than one video when a user searches for a recipe. This will give users more options. I would also like to connect another API to give users more information on various various. Additionally, I would like to include more interactive elements to keep users engaged. 
+In the future, I would like the website to load more than one video when a user searches for a recipe. This will give users more options. I would also like to connect another API to give users more information on various various. Additionally, I would like to include more interactive elements to keep users engaged. One more thing that I would like to implement is to have a new browser window open when the link to the Spooncular website is clicked.
 
 ### Limitation 
 Clicking on the link (header text - Recipe Finder by Spooncular) will take users to the Spooncular page, but it will not open in a new window. 
