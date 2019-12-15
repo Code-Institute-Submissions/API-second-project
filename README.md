@@ -36,4 +36,9 @@ In the future, I would like the website to load more than one video when a user 
 ### Limitation 
 Clicking on the link (header text - Recipe Finder by Spooncular) will take users to the Spooncular page, but it will not open in a new window. 
 
-
+## Project Surface
+### Design Choices
+(i) The colour scheme of header text and the nav bar is intended make the title of the website stand out. 
+(ii) The nav bar text changes colour when user hovers over the text. This will show them that the text is a link. Additionally, when the mouse hovers over the text, the cursor changes. 
+(iii) The font looks fun and appeals to users. The background image is attractive and colourful, so as to draw the users eye. 
+(iv) The colour of the text box above the search bar font colour of the text inside the box matches the colours of the background image. 
