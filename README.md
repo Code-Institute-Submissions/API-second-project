@@ -52,3 +52,19 @@ CSS was used to style the website.
 3. Bootstrap (link to the documentation: https://getbootstrap.com)
 4. Javascript — for the navigation bar. (link to the documentation: https://devdocs.io/jsdoc/)
 
+## Testing
+(i) Mobile Responsiveness
+
+This site was tested across multiple devices multiple mobile devices 
+(iPhone 4, 5, 7: Chrome and Safari, iPad, Samsung Galaxy) to ensure compatibility and responsiveness.)
+
+Website tested on mobile and on laptop mode : 
+https://docs.google.com/document/d/140WFOEAWvWYbQggkNLfy00ew1iz-99JKdUMuonGJmC0/edit
+
+(ii) Browser Compatibility
+
+This site was tested across multiple devices multiple mobile devices 
+(iPhone 4, 5, 7: Chrome and Safari, iPad, Samsung Galaxy) to ensure compatibility and responsiveness.)
+
+(iii) Additionally, certain elements such as the textbox above the search bar is turned off for phones, as soon as the breakpoint hits min-device-width: 320px.
+
