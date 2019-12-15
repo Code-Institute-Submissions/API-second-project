@@ -82,6 +82,11 @@ This site was tested across multiple devices multiple mobile devices
 ## Bugs Discovered
 No bugs found. 
 
+## Deployment
+My code was written using Visual Studio Code. Visual Studio Code serves as the local repository before it is deployed to GitHub. New commits made on the master branch will update the deployed site in real time. To access my project, I will visit my GitHub (https://github.com/soycat999) select the settings under https://soycat999.github.io/API-second-project/ and click on master branch under GitHub Pages. By clicking on the master branch my deployed website will be available as a clickable link. 
+
+This repository can also be deployed locally by cloning the repository. To clone the repository I will have to visit the main page of the repository to clone/download directly into the editor of my choice and paste the git clone into the terminal. 
+
 ### Acknowledgements
 
 W3Schools: To format background image.
@@ -109,12 +114,4 @@ https://fonts.google.com/
 
 Bootstrap: For button.
 https://getbootstrap.com/docs/4.4/components/buttons/
-
-
-## Deployment
-My code was written using Visual Studio Code. Visual Studio Code serves as the local repository before it is deployed to GitHub. New commits made on the master branch will update the deployed site in real time. To access my project, I will visit my GitHub (https://github.com/soycat999) select the settings under https://soycat999.github.io/API-second-project/ and click on master branch under GitHub Pages. By clicking on the master branch my deployed website will be available as a clickable link. 
-
-This repository can also be deployed locally by cloning the repository. To clone the repository I will have to visit the main page of the repository to clone/download directly into the editor of my choice and paste the git clone into the terminal. 
-
-
 
